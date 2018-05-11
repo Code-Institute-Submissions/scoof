@@ -11,6 +11,9 @@ p{
 	font-size: 15px;
 }
 
+
+
+
 	.navbar-default{
 		background-color: white;
 		border: none;
@@ -47,7 +50,7 @@ p{
 		padding-bottom: 30px
 	}
 
-	.scoofset{
+	.home-images{
 	width:100%;
 	border-style: solid;
 	border-color: white;
@@ -83,21 +86,18 @@ p{
     transform: translate(-50%, -50%);
 	}
 
-	.social-media{
-		float: right;
-		padding:0px 10px;
-	}
-
 	.footer{
 		color: #C01E6A; 
+		text-align: center;
+	}
+
+	#social-media{
+		padding-bottom: 30px;
 	}
 
 	#copyright{
-		text-align: center;
 		padding: 30px 0px;
 	}
-
-
 
 @media screen and (min-width: 768px){
 
@@ -148,12 +148,23 @@ p{
 	}
 
 	#bottom-image{
-    font-size: 60px;
-}
+    	font-size: 60px;
+	}
+
+	.footer{
+		display:inline;
+		text-align: left;
+	}
 
 	#copyright{
-		text-align: left;
-		padding: 30px 0px 30px 30px;
+		display:inline-block;
+		padding: 30px 30px;
+	}
+
+	#social-media{
+		position: absolute;
+		left:1400px;
+		padding-top: 30px;
 	}
 
 
