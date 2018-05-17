@@ -54,9 +54,11 @@ footer{
 
 	.page-images{
 	width:100%;
-	border-style: solid;
-	border-color: white;
-	border-width: medium;
+	margin-bottom: 30px;
+	}
+
+	.video{
+	width:100%;
 	margin-bottom: 30px;
 	}
 
@@ -123,7 +125,7 @@ footer{
 
 	.abouttext1{
 		text-align: center;
-		padding: 0px 30px 0px 30px;
+		padding: 0px 30px 30px 30px;
 	}
 
 	.abouttext2{
@@ -132,14 +134,42 @@ footer{
 	}
 
 	.instruction-images{
-		width:100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:50%;
+		border-style: solid;
+		border-color: #C01E6A;
+		border-width: medium;
 	}
 
-	.instruction-text{
+	.instruction-text1{
 		font-size: 20px;
 		text-align: center;
+		margin:20px;
 	}
 
+	.instruction-text2{
+		font-size: 20px;
+		text-align: center;
+		margin:20px;
+	}
+
+	.instruction-text3{
+		font-size: 20px;
+		text-align: center;
+		margin:20px;
+	}
+
+	.instruction-text4{
+		font-size: 20px;
+		text-align: center;
+		margin:20px;
+	}
+
+	.images-faq{
+		width: 100%
+	}
 
 @media screen and (min-width: 768px){
 
@@ -179,8 +209,7 @@ footer{
 	}
 
 	.page-images{
-	margin-bottom: 0px; 
-	margin-top: 30px;
+		margin-bottom: 0px; 
 	}
 
 	.hometext1{
@@ -203,8 +232,8 @@ footer{
 	}
 
 	.centered-image-text{
-    top: 50%;
-    left: 50%;
+    	top: 50%;
+    	left: 50%;
 	}
 
 	#copyright{
@@ -226,6 +255,11 @@ footer{
     	bottom: 130px;
 	}
 
+	.video{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	}
+
 	.abouttext1{
 		text-align: center;
 		padding-top: 55px;
@@ -236,6 +270,35 @@ footer{
 		padding-top: 120px;
 	}
 	
+	.instruction-text1{
+		display: flex; 
+		align-items: center; 
+		justify-content: center;
+		padding-top: 15px;
+	}
 
+	.instruction-text2{
+		display: flex; 
+		align-items: center; 
+		justify-content: center;
+		padding-top: 35px;
+	}
 
+	.instruction-text3{
+		display: flex; 
+		align-items: center; 
+		justify-content: center;
+		padding-top: 15px;
+	}
+
+	.instruction-text4{
+		display: flex; 
+		align-items: center; 
+		justify-content: center;
+		padding-top: 25px;
+	}
+
+	.instruction-images{
+		width:100%;
+	}
 
