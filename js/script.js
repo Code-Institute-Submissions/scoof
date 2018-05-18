@@ -13,9 +13,25 @@ $(document).ready(function(){
         document.body.style.backgroundColor = "#F6F6F6";
     	}
 	}
+		var x = window.matchMedia("(max-width: 768px)")
+		changeBackground(x) 
+		x.addListener(changeBackground)
 
-	var x = window.matchMedia("(max-width: 768px)")
-	changeBackground(x) 
-	x.addListener(changeBackground)
 
+
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+    	acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+
+        	var panel = this.nextElementSibling;
+        	if (panel.style.display === "block") {
+            	panel.style.display = "none";
+        	} else {
+            panel.style.display = "block";
+        	}
+    	});
+	}
 });

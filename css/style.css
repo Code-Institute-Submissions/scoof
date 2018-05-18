@@ -116,7 +116,7 @@ footer{
 
 	.video{
 	width: 100%;
-	height:100%;
+	height: 100%;
 	border-style: solid;
 	border-color: white;
 	border-width: medium;
@@ -137,7 +137,7 @@ footer{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width:50%;
+		width: 50%;
 		border-style: solid;
 		border-color: #C01E6A;
 		border-width: medium;
@@ -158,17 +158,40 @@ footer{
 	.instruction-text3{
 		font-size: 20px;
 		text-align: center;
-		margin:20px;
+		margin: 20px;
 	}
 
 	.instruction-text4{
 		font-size: 20px;
 		text-align: center;
-		margin:20px;
+		margin: 20px;
 	}
 
 	.images-faq{
 		width: 100%
+	}
+
+	.accordion{
+    	background-color: white;
+    	font-size: 15px;
+    	cursor: pointer;
+    	padding: 18px;
+    	width: 100%;
+    	text-align: center;
+    	border: none;
+    	outline: none;
+    	transition: 0.5s;
+	}
+
+	.active, .accordion:hover{
+    	color: #C01E6A;
+	}
+
+	.panel{
+    	padding: 0 18px;
+    	display: none;
+    	overflow: hidden;
+    	text-align: center;
 	}
 
 @media screen and (min-width: 768px){
@@ -177,7 +200,11 @@ footer{
 		padding-bottom: 0px;
 	}
 
-	.container-margin{
+	.container-margin-50{
+		margin-bottom: 50px;
+	}
+
+	.container-margin-100{
 		margin-bottom: 100px;
 	}
 
@@ -301,4 +328,19 @@ footer{
 	.instruction-images{
 		width:100%;
 	}
+
+	.accordion {
+		background-color: #F6F6F6;
+    	text-align: left;
+	}
+
+	.panel{
+    	text-align: left;
+    	background-color: #F6F6F6;
+	}
+
+	.faq-padding{
+		padding:20px 0px 0px 75px;
+	}
+}
 
