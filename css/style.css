@@ -35,6 +35,10 @@ footer{
 	#logotext{
 		display: none;  
 	}
+
+	.navbar{
+		margin-bottom: 0px;
+	}
 	
 	.navbar-nav>li>a {
     padding-top: 10px;
@@ -173,7 +177,7 @@ footer{
 
 	.accordion{
     	background-color: white;
-    	font-size: 15px;
+    	font-size: 18px;
     	cursor: pointer;
     	padding: 18px;
     	width: 100%;
@@ -192,7 +196,41 @@ footer{
     	display: none;
     	overflow: hidden;
     	text-align: center;
+	}	
+
+	.contact-remove-container-padding{
+		padding: 0px;
 	}
+
+	#contact-image{
+		width: 100%;
+	}	
+
+	.contact-text{
+		text-align: center;
+		padding: 50px 100px 50px 100px;
+	}
+
+	.form{
+		padding-top: 50px;
+	}
+
+	.form-control{
+		display: inline-block;
+		width:50%;
+		margin-bottom: 20px;
+	}
+
+	#form-message{
+		height:100px;
+	}
+
+	#submit-button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 
 @media screen and (min-width: 768px){
 
@@ -200,12 +238,20 @@ footer{
 		padding-bottom: 0px;
 	}
 
-	.container-margin-50{
+	.container-margin-top-30{
+		margin-top: 30px;
+	}
+
+	.container-margin-bottom-50{
 		margin-bottom: 50px;
 	}
 
-	.container-margin-100{
+	.container-margin-bottom-100{
 		margin-bottom: 100px;
+	}
+
+	.padding-top-30{
+		padding-top: 30px;
 	}
 
 	.navbar-nav>li>a {
@@ -332,6 +378,7 @@ footer{
 	.accordion {
 		background-color: #F6F6F6;
     	text-align: left;
+    	font-size: 18px;
 	}
 
 	.panel{
