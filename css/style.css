@@ -17,7 +17,7 @@ footer{
 }
 
 	.container-fluid{
-		padding-bottom: 20px;
+		padding: 0px;
 	}
 
 	.navbar-default{
@@ -76,6 +76,10 @@ footer{
 		padding: 0px 30px 30px 30px;
 	}
 
+	.remove-container-padding{
+		padding: 0px;
+	}
+
 	#sink{
 		width: 100%;
 		filter:brightness(40%);
@@ -101,6 +105,10 @@ footer{
 		align-items: center; 
 		justify-content: center;
 		margin-bottom: 30px;
+	}
+
+	.social-media-icon{
+		margin-left: 5px;
 	}
 
 	.social-media-icon:hover{
@@ -198,10 +206,6 @@ footer{
     	text-align: center;
 	}	
 
-	.contact-remove-container-padding{
-		padding: 0px;
-	}
-
 	#contact-image{
 		width: 100%;
 	}	
@@ -285,6 +289,10 @@ footer{
 		margin-bottom: 0px; 
 	}
 
+	.hide-text{
+		visibility: hidden;
+	}
+
 	.hometext1{
 		text-align: center;
 		padding: 150px 50px 0px 100px;
@@ -318,7 +326,7 @@ footer{
 	#social-media{
 		display: inline;
 		float: right;
-		padding-top: 25px;
+		padding-top: 35px;
 		padding-right: 30px;
 	}
 

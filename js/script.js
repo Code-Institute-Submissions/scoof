@@ -1,10 +1,11 @@
-$(document).ready(function(){
+ $(document).ready(function(){
     
-   $(".btn").hover(function(){
+    $(".btn").hover(function(){
         $(this).css("background-color", "#e0b8d8");
         }, function(){
         $(this).css("background-color", "#C01E6A");
     });
+
 
 	function changeBackground(x) {
     	if (x.matches){
@@ -16,7 +17,6 @@ $(document).ready(function(){
 		var x = window.matchMedia("(max-width: 768px)")
 		changeBackground(x) 
 		x.addListener(changeBackground)
-
 
 
 	var acc = document.getElementsByClassName("accordion");
