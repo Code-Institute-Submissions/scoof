@@ -17,7 +17,7 @@ footer{
 }
 
 	.container-fluid{
-		padding: 0px;
+		padding: 20px 0px 0px 0px;
 	}
 
 	.navbar-default{
@@ -239,7 +239,7 @@ footer{
 @media screen and (min-width: 768px){
 
 	.container-fluid{
-		padding-bottom: 0px;
+		padding: 0px;
 	}
 
 	.container-margin-top-30{
@@ -287,10 +287,6 @@ footer{
 
 	.page-images{
 		margin-bottom: 0px; 
-	}
-
-	.hide-text{
-		visibility: hidden;
 	}
 
 	.hometext1{
