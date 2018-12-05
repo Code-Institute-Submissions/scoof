@@ -34,5 +34,5 @@ javascript testing has been performed manually. It was envisaged that jasmine wo
 
 This app was developed by Jonathan Walters as a front end project for the Code Instute Full Stack Developer Diploma.
 
-
+It is deployed at https://jonw83.github.io/scoof/
 
