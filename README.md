@@ -28,7 +28,7 @@ javascript has been used for app interactivity.
 
 Bootstrap has been used for the app framework to help give a simple responsive design. 
 
-javascript testing has been performed manually. It was envisaged that jasmine would be used to test the javascript functionality. However it became apparent that the javascript code was not suited to this method of testing after numerous attempts. Therefore manual testing in the browser was performed to ensure the javascript is working as it should. Manual testing in the browser confirms that the javascript functionality works.
+javascript testing has been performed manually. It was envisaged that jasmine would be used to test the javascript functionality. However it became apparent that the javascript code was not suited to this method of testing after numerous attempts. Therefore manual testing in the browser was performed to ensure the javascript is working as it should. The javascript code changes the colour of buttons when they are hovered over and also changes the background colour of the body element when the screen size is less than 768px. Manual testing in the browser confirms that the javascript functionality works.
 
 ## Contributing
 
